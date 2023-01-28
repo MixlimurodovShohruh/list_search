@@ -9,7 +9,7 @@ def find_max_min_sum(data):
     for i in data:
         if mx<i:
             mx=i
-    min=data[0]
+    min=100
     for v in data:
         if min>=i:
             min=v
