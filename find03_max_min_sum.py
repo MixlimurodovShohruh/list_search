@@ -5,14 +5,15 @@ def find_max_min_sum(data):
         data: list of numbers
     returns: sum of the maximum and minimum numbers in the list
     """
+    i=0
     mx=data[0]
-    for i in data:
-        if mx<i:
-            mx=i
-    min=data[-1]
-    for v in data:
-        if min>=i:
-            min=v
-    return mx+min
+    mn=data[0]
+    while i<len(data):
+        if mx<data[i]:
+            mx=data[i]
+        if mn>data[i]:
+            mn=data[i]
+        i+=1
+    return mx+mn 
 print(find_max_min_sum([1, 2, 3, 4, 5]))
 
