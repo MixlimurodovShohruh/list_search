@@ -5,4 +5,14 @@ def find_max_even(data):
         data: list of numbers
     returns: maximum even number in the list
     """
-    return 0
+    d=[]
+    mx=0
+    for i in data:
+        if i%2==0:
+            d.append(i)
+    for d in d:
+        if mx<d:
+            mx=d
+
+    return mx
+print(find_max_even([7, 6, 3, 4, 9]))
