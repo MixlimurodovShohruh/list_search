@@ -9,10 +9,10 @@ def find_max_min_sum(data):
     for i in data:
         if mx<i:
             mx=i
-    min=data[-1]
+    min=data[0]
     for v in data:
         if min>=i:
             min=v
     return mx+min
-print(find_max_min_sum([2, 7, 3, 4, 9]))
+print(find_max_min_sum([1, 2, 3, 4, 5]))
 
