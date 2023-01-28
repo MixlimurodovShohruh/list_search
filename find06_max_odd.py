@@ -6,10 +6,10 @@ def find_max_odd(data):
     returns: maximum odd number in the list
     """
     g=[]
-    mx=0
     for i in data:
         if i%2==1:
             g.append(i)
+    mx=g[0]
     for c in g:
         if mx<c:
             mx=c

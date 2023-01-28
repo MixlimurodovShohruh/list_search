@@ -6,10 +6,10 @@ def find_max_even(data):
     returns: maximum even number in the list
     """
     d=[]
-    mx=0
     for i in data:
         if i%2==0:
             d.append(i)
+    mx=d[0]
     for d in d:
         if mx<d:
             mx=d

@@ -15,5 +15,5 @@ def find_min_even(data):
         if min>c:
             min=c
     return min
-print(find_min_even([1, 8, 2, 8, 5]))
+print(find_min_even([7, 8, 4, 3, 5]))
 
