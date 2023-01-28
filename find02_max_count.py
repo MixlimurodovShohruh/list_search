@@ -5,7 +5,7 @@ def find_max_count(data):
         data: list of numbers
     returns: count of maximum numbers in the list
     """
-    mx=1
+    mx=data[0]
     for i in data:
         if mx<i:
             mx=i

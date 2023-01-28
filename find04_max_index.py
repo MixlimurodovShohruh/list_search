@@ -5,7 +5,7 @@ def find_max_index(data):
         data: list of numbers
     returns: index of maximum number in the list
     """
-    mx=0
+    mx=data[0]
     for i in data:
         if mx<i:
             mx=i

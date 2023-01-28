@@ -5,11 +5,11 @@ def find_max_min_sum(data):
         data: list of numbers
     returns: sum of the maximum and minimum numbers in the list
     """
-    mx=1
+    mx=data[0]
     for i in data:
         if mx<i:
             mx=i
-    min=100
+    min=data[0]
     for v in data:
         if min>=i:
             min=v
