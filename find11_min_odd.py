@@ -9,6 +9,8 @@ def find_min_odd(data):
     for i in data:
         if i%2==1:
             f.append(i)
+    if len(f)==0:
+        return -1
     min=f[0]
     for g in f:
         if min>g:

@@ -10,6 +10,8 @@ def find_min_even(data):
     for i in data:
         if i%2==0:
             d.append(i)
+    if len(d)==0:
+        return -1
     min=d[0]
     for c in d:
         if min>c:
